@@ -1,3 +1,51 @@
 *{
-    background-color: blue;
+    margin: 0px;
+    padding: 0px;
 }
+
+/*Importando fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+.container-header{
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    background-color: #2D2D2D;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.logo{
+    width: 30%;
+}
+
+.fa, fa-filme{
+    color: #FF0066;
+    padding-right:20px;
+    width: 32px;
+    height: 36px;
+}
+
+#text-logo{
+    color: #FF0066;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.menu a{
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+/*usar flex box ou CSS grid pra alinhar ao centro*/
