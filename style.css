@@ -11,10 +11,9 @@
 .container-header{
     width: 100%;
     margin: 0px;
-    padding: 20px;
+    padding: 20px 0px 20px 0px;
     background-color: #2D2D2D;
     display: flex;
-    flex-direction: row !important;
 }
 
 .logo{
@@ -60,20 +59,44 @@ menu a:hover{
 }
 
 /*------------Banner section-------------*/
-.banner{
-    padding: 100px;
-    background: url("https://www.themoviedb.org/t/p/w533_and_h300_bestv2/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg");
-    opacity: 80%;
-    position: absolute;
+
+.banner-section{
+    background-color: black;
     width: 100%;
-    background-repeat: no-repeat;
+}
+.banner{
+    height: 207px;
+    padding-top: 50px;
+    background: url("https://www.themoviedb.org/t/p/w533_and_h300_bestv2/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg");
+    opacity: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
+    box-shadow: inset 100px -200px 1000px 10px rgb(53, 53, 53);
 }   
 
 .banner-text{
     color: #FFF;
     font-family: 'Montserrat', sans-serif;
     font-size: 36px;
+    font-weight: 700;
     text-align: left;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+}
+
+/*-------Movie cards--------*/
+
+.movie-cards{
+    background-color: blue;
+    height: 364px;
+    padding: 20px;
+}
+
+.movie-box{
+    background-color: #FF0066;
+    height: 100%;
+    border: 6px solid yellow;
+    border-radius: 10px;
 }
