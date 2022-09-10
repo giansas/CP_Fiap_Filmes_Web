@@ -6,6 +6,7 @@
 /*Importando fontes*/
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto&display=swap');
 
 .container-header{
     width: 100%;
@@ -38,14 +39,41 @@
     display: flex;
     align-items: center;
     width: 70%;
+    justify-content: space-around;
+    
+}
+
+menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .menu a{
-    text-align: center;
-    align-items: center;
     text-decoration: none;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
-/*usar flex box ou CSS grid pra alinhar ao centro*/
+menu a:hover{
+    color: #FF0066;
+}
+
+/*------------Banner section-------------*/
+.banner{
+    padding: 100px;
+    background: url("https://www.themoviedb.org/t/p/w533_and_h300_bestv2/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg");
+    opacity: 80%;
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}   
+
+.banner-text{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    text-align: left;
+}
