@@ -8,6 +8,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto&display=swap');
 
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
 .container-header{
     width: 100%;
     margin: 0px;
@@ -86,17 +90,76 @@ menu a:hover{
     align-items: center;
 }
 
-/*-------Movie cards--------*/
+/*-------Movie/Series section--------*/
 
 .movie-cards{
-    background-color: blue;
-    height: 364px;
+    background-color: black;
+    height: 400px;
     padding: 20px;
 }
 
+.movie-cards h2{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+}
+
 .movie-box{
-    background-color: #FF0066;
-    height: 100%;
-    border: 6px solid yellow;
+    height: 350px;
+    border: 6px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filme img{
+    width: 140px;
+    height: 225px;
+    border: 1px solid transparent;
     border-radius: 10px;
 }
+
+.filme h3{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    color: #929292;
+    font-family: 'Roboto', sans-serif;
+}
+.star i{
+    padding-right: 0;
+    margin: 0;
+    color: #F5C518;
+}
+
+.filme button{
+    background-color: #FF0066;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+}
+.bt-detalhes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bt-detalhes button{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px 30px 10px 30px;
+}
+
+.bt-detalhes button:hover{
+    background-color: blue;
+    transition: 0.5s;
+}
+
+
