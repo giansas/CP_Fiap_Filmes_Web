@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Importando fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Roboto&display=swap');
+
+/*font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+.container-header{
+    width: 100%;
+    margin: 0px;
+    padding: 20px 0px 20px 0px;
+    background-color: #2D2D2D;
+    display: flex;
+}
+
+.logo{
+    width: 30%;
+}
+
+.fa, fa-filme{
+    color: #FF0066;
+    padding-right:20px;
+    width: 32px;
+    height: 36px;
+}
+
+#text-logo{
+    color: #FF0066;
+    text-decoration: none;
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+    
+}
+
+menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+menu a:hover{
+    color: #FF0066;
+}
+
+/*------------Banner section-------------*/
+
+.banner-section{
+    background-color: black;
+    width: 100%;
+}
+.banner{
+    height: 300px;
+    background: url("https://www.themoviedb.org/t/p/original/kiJ0yEb70xEj8uDhhDYkvLgxSzv.jpg");
+    opacity: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: calc(center,center);
+    box-shadow: inset 100px -300px 1000px 10px rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+}   
+
+.banner-text{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 0.04em;
+    display: flex;
+    align-items: center;
+}
+
+.description{
+    color: #CCCCCC;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.box{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-image img{
+    width: 150px;
+    height: 225px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+.movie-content{
+    width: 60%;
+    padding-left: 50px;
+}
+
+/*-----Elenco section-----*/
+
+.elenco-movie{
+    background-color: black;
+    height: 500px;
+}
