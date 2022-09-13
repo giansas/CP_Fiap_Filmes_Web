@@ -126,5 +126,72 @@ menu a:hover{
 
 .elenco-movie{
     background-color: black;
-    height: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 70px 200px;
+
+}
+
+.action-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.elenco-button{
+    background-color: black;
+}
+
+.action-buttons button{
+    text-decoration: none;
+    background-color: #FF0066;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+}
+
+.fa-arrow-circle-left,.fa-globe,.fa-video-camera{
+    padding: 0px 10px 10px 10px;
+    width: 10px;
+    height: 10px;
+    color: #FFF;
+}
+
+.action-buttons button:hover{
+    background-color: #FFF;
+    color: #FF0066;
+    transition: 0.5s;
+}
+.fa-video-camera:hover{
+    color: #FF0066;
+}
+.fa-arrow-circle-left:hover{
+    color: #FF0066;
+}
+.fa-globe:hover{
+    color: #FF0066;
+}
+
+.elenco{
+    background-color: green;
+}
+
+.box-elenco{
+    background-color: blue;
+}
+
+
+.details{
+    background-color: aqua;
+    height: 100%;
+    grid-row-start:1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+
 }
