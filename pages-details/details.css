@@ -126,10 +126,10 @@ menu a:hover{
 
 .elenco-movie{
     background-color: black;
-    height: 300px;
+    height: 450px;
     display: grid;
     grid-template-columns: 80% 20%;
-    grid-template-rows: 70px 200px;
+    grid-template-rows: 20% 60%;
 
 }
 
@@ -138,11 +138,9 @@ menu a:hover{
     align-items: center;
     justify-content: space-between;
     width: 400px;
+    margin-left: 100px;
 }
 
-.elenco-button{
-    background-color: black;
-}
 
 .action-buttons button{
     text-decoration: none;
@@ -167,31 +165,107 @@ menu a:hover{
     color: #FF0066;
     transition: 0.5s;
 }
-.fa-video-camera:hover{
-    color: #FF0066;
-}
-.fa-arrow-circle-left:hover{
-    color: #FF0066;
-}
-.fa-globe:hover{
-    color: #FF0066;
-}
 
 .elenco{
-    background-color: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.elenco h1{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    text-align: start;
 }
 
 .box-elenco{
-    background-color: blue;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 80px;
+    width: 80%;
 }
 
+.card-elenco{
+    background-color: #2D2D2D;
+    width: 140px;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-elenco img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50px;
+
+}
+.card-elenco h3{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align:center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+
+.card-elenco h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 10px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #7a7a7a;
+}
 
 .details{
-    background-color: aqua;
-    height: 100%;
+    background-color: #2D2D2D;
+    height: 70%;
     grid-row-start:1;
-    grid-row-end: 3;
+    grid-row-end: 4;
     grid-column-start: 2;
     grid-column-end: 2;
-
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
+
+.title{
+    display: flex;
+}
+
+.bar{
+    background-color: #FF0066;
+    width: 5px;
+    height: 25px;
+}
+
+.details h1{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    text-align: start;
+}
+
+.details h2{
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.details h3{
+    color: #7a7a7a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+
+/*-----Responsive-----*/
+
