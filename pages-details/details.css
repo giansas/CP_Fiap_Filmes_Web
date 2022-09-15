@@ -71,11 +71,8 @@ menu a:hover{
 }
 .banner{
     height: 300px;
-    background: url("https://www.themoviedb.org/t/p/original/kiJ0yEb70xEj8uDhhDYkvLgxSzv.jpg");
     opacity: 100%;
     width: 100%;
-    background-size: cover;
-    background-position: calc(center,center);
     box-shadow: inset 100px -300px 1000px 10px rgb(53, 53, 53);
     display: flex;
     justify-content: center;
@@ -309,6 +306,7 @@ color: #FFFFFF;
         margin-left: 0px;
         display: flex;
         flex-direction: column;
+        width: auto;
     }
     .action-buttons a{
         margin-bottom: 20px;
