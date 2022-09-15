@@ -118,3 +118,28 @@ menu a:hover{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
+
+
+/*-----Responsive section----*/
+
+@media (max-width:600px){
+
+    #text-logo{
+        font-size: 20px;
+    }
+    .fa, fa-filme{        
+        width: 35px;
+        height: 15px;
+    }
+
+    .sobre{
+        height: auto;
+    }
+    .box{
+        flex-direction: column;
+        height: auto;
+    }
+    .person{
+        margin-bottom: 20px;
+    }
+}
